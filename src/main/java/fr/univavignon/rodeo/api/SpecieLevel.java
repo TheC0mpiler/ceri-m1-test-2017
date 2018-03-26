@@ -30,7 +30,7 @@ public enum SpecieLevel {
 	 * @param requiredXP Amount of XP required to reach this level.
 	 */
 	private SpecieLevel(final int requiredXP) {
-		this.requiredXP = requiredXP;
+		this.requiredXP = requiredXP + 4;
 	}
 
 	/**
