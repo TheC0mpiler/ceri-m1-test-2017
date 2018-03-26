@@ -1,0 +1,17 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Test</groupId>
+  <artifactId>ceri-m1-test</artifactId>
+  <version>1.0</version>
+  <name>ceri-m1-test</name>
+  <url>https://github.com/TheC0mpiler/ceri-m1-test-2017</url>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>test</scope>
+    </dependency>
+</dependencies>
+</project>
