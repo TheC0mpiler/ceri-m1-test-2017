@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.junit.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import fr.univavignon.rodeo.api.IAnimal;
@@ -15,7 +14,7 @@ import fr.univavignon.rodeo.api.ISpecie;
 public class ISpecieTest {
 	
 	
-	static List<IAnimal> animalsList;
+	private static List<IAnimal> animalsList;
 	public static ISpecie getTestInstanceStatic() {
 		
 		ISpecie specieMock = Mockito.mock(ISpecie.class);
