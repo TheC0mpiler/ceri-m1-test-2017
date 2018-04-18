@@ -15,10 +15,10 @@ public class ISpecieTest {
 	
 	
 	private static List<IAnimal> animalsList;
-	public static ISpecie getTestInstanceStatic() {
+	public static ISpecie getTestInstanceStatic(int area) {
 		
 		ISpecie specieMock = Mockito.mock(ISpecie.class);
-		Mockito.when(specieMock.getArea()).thenReturn(3);
+		Mockito.when(specieMock.getArea()).thenReturn(area);
 		
 		animalsList = new LinkedList<IAnimal>();
 		animalsList.add(IAnimalTest.getTestInstanceStatic(2, true, false, false));
@@ -30,7 +30,7 @@ public class ISpecieTest {
 	}
 	protected ISpecie getTestInstance() {
 		
-		return getTestInstanceStatic();
+		return getTestInstanceStatic(3);
 	
 	}
 	
