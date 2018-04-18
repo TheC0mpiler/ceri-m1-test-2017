@@ -28,6 +28,8 @@ public class IEnvironmentProviderTest {
 		environment = IEnvironmentTest.getTestInstanceStatic(4);
 		
 		Mockito.when(environmentProviderTest.getEnvironment("name")).thenReturn(environment);
+		Mockito.when(environmentProviderTest.getEnvironment(null)).thenThrow(new IllegalArgumentException());
+		
 		
 		return environmentProviderTest;
 	}
