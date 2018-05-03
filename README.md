@@ -15,6 +15,9 @@
 - [CircleCi](https://circleci.com/dashboard)
 - [codecov](https://codecov.io/gh/TheC0mpiler/ceri-m1-test-2017)
 - [codacy](https://app.codacy.com/app/TheC0mpiler/ceri-m1-test-2017/dashboard)
+- [point bonus]
+![alt text](https://www.noelshack.com/2018-18-4-1525350502-pointbonusadrian.png)
+![alt text](https://www.noelshack.com/2018-18-4-1525350510-capture-du-2018-05-03-14-27-59.png)
 
 ### External
 
